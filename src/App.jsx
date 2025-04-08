@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="">
       <Routes>
-        <Route path='/login' Component={localStorage.getItem('isLoggedIn') === 'true' ? <Navigate to="/galleries" replace /> : <Navigate to="/login" replace />} />
+        <Route path='/' Component={localStorage.getItem('isLoggedIn') === 'true' ? <Navigate to="/galleries" replace /> : <Navigate to="/login" replace />} />
         <Route path='/login' Component={Login} />
         <Route path='/galleries' Component={Galleries} />
         <Route path='/artists' Component={Artists} />
