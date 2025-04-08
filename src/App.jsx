@@ -14,14 +14,14 @@ function App() {
   return (
     <div className="">
       <Routes>
-        <Route path='login' Component={Login} />
-        <Route path='galleries' Component={Galleries} />
-        <Route path='artists' Component={Artists} />
-        <Route path='genres' Component={Genres} />
-        <Route path='painting/:id' Component={SinglePainting} />
-        <Route path='paintings' Component={Paintings} />
-        <Route path='favourites' Component={Favourites} />
-        <Route path='about' Component={About} />
+        <Route path='/login' Component={Login} />
+        <Route path='/galleries' Component={Galleries} />
+        <Route path='/artists' Component={Artists} />
+        <Route path='/genres' Component={Genres} />
+        <Route path='/painting/:id' Component={SinglePainting} />
+        <Route path='/paintings' Component={Paintings} />
+        <Route path='/favourites' Component={Favourites} />
+        <Route path='/about' Component={About} />
       </Routes>
       <ToastContainer />
     </div>
