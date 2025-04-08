@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="">
       <Routes>
-        <Route path='/' Component={Login} />
         <Route path='/login' Component={Login} />
         <Route path='/galleries' Component={Galleries} />
         <Route path='/artists' Component={Artists} />
